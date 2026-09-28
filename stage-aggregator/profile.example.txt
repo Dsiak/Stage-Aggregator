@@ -1,0 +1,1 @@
+Profil de démonstration à personnaliser : étudiant cherchant un stage en développement backend au Canada. Compétences : Python, FastAPI, SQL, Git et tests pytest. Intérêt pour les API et l'automatisation. Ne pas inclure de coordonnées ni de secrets.

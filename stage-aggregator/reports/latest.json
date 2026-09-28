@@ -1,0 +1,22 @@
+{
+  "collected": 2,
+  "filtered": 1,
+  "evaluated": 1,
+  "selected": 1,
+  "imported": 0,
+  "reconciled": 0,
+  "errors": 0,
+  "offers": [
+    {
+      "title": "Stage Python backend",
+      "company": "Exemple Logiciels",
+      "url": "https://example.com/stage-python",
+      "source": "Demo",
+      "score": 100,
+      "reason": "Score par règles (sans IA) : compétences communes python, fastapi, sql, pytest, backend.",
+      "evaluator": "rules"
+    }
+  ],
+  "invalid_source_rows": 0,
+  "notified": 0
+}

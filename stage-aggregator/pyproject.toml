@@ -1,0 +1,20 @@
+[project]
+name = "stage-aggregator"
+version = "1.0.0"
+description = "Collecte et évaluation d'offres de stage, intégration HTTP indépendante"
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.28,<0.29", "beautifulsoup4>=4.12,<5", "pydantic>=2.10,<3", "filelock>=3.16,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["aggregator*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

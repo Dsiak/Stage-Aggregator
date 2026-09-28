@@ -1,0 +1,13 @@
+source = "remotive"
+evaluator = "rules" # "anthropic" pour un véritable score LLM
+profile_path = "profile.example.txt"
+state_path = "state/aggregator.db"
+report_path = "reports/latest.json"
+min_score = 60
+max_evaluations = 10
+max_age_days = 30
+require_internship = true
+exclude_unpaid = true
+include_keywords = ["python", "backend", "développement", "software", "informatique"]
+locations = ["canada", "new brunswick", "nouveau-brunswick", "worldwide", "anywhere"]
+notify_every_days = 1 # 7 pour un résumé hebdomadaire
